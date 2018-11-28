@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://ogp.me/ns/fb#">
+  <head>
+    <link rel='icon' href='assets/btf-logo.png' sizes="8x2" type='image/png'>
+
+    <title>The Library</title>
+
+    <script type="text/javascript" src="main.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="assets/fb-link-preview-img.png" />
+
+  </head>
+  <body>
+
+    <nav>
+      <div class="nav-bar">
+        <div class="home-tab" onclick="window.scrollTo(0,0);"></div>
+        <div id="hamburger" onclick="menuControls()">
+          <button class;="hamburger-icon">
+            <div class="hambuger-bar"></div>
+            <div class="hambuger-bar"></div>
+            <div class="hambuger-bar"></div>
+          </button>
+          <div class="hamburger-menu">
+            <div class="menu-element" onclick="scrollToAbstract();">Abstract</div>
+            <div class="menu-element" onclick="scrollToAnalysis();">Analysis</div>
+            <div class="menu-element" onclick="scrollToComputation();">Computation</div>
+            <div class="menu-element" onclick="scrollToConclusion();">Conclusion</div>
+          </div>
+        </div>
+        <div class="nav-menu">
+          <div class="menu-element" onclick="scrollToAbstract();">Abstract</div>
+          <div class="menu-element" onclick="scrollToAnalysis();">Analysis</div>
+          <div class="menu-element" onclick="scrollToComputation();">Computation</div>
+          <div class="menu-element" onclick="scrollToConclusion();">Conclusion</div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="main">
+
+      <div class="page" id="landing-page">
+        <div class="landing-text">
+          <div class="landing-page-header">
+              <p class="header">The Library of Babel</p>
+          </div>
+          <div class="landing-page-subheader">
+            <p class="subtitle">ENGL 287: Literature & The Future</p>
+           <button class="landing-button" onclick="scrollToAbstract();">Abstract</button>
+          </div>
+        </div>
+        <div id="landing-img"></div>
+      </div>
+
+      <div id="spacer-3"></div>
+
+      <div class="page" id="abstract-page">
+        <p class="subheader">Abstract</p>
+      </div>
+
+      <div id="analysis-page">
+          <p class="subheader">Analysis</p>
+          <p class="subsubheader">Temporality</p>
+          <p class="subsubheader">Futurity</p>
+      </div>
+
+      <div class="page" id="computation-page">
+          <p class="subheader">Computation</p>
+      </div>
+
+      <div class="page" id="conclusion-page">
+          <p class="subheader">Conclusion</p>
+      </div>
+    </div>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+  </html>

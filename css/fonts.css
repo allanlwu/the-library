@@ -11,7 +11,7 @@
 
 .subtitle {
   font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 18px;
   letter-spacing: normal;
   margin-top: 4px;
@@ -47,18 +47,13 @@ p {
   margin: 0;
 }
 
-.landing-fineprint {
-  margin-top: 30%;
+.elem {
   font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 200;
-  font-size: 12px;
-  /* letter-spacing: 0.3px; */
-  color: #333333;
 }
 
 b {
   font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 a {

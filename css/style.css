@@ -36,6 +36,7 @@ body {
 .text-div {
   display: inline-block;
   width: 65%;
+  width: 65%;
   /* margin-right: 5%; */
   float: right;
 }
@@ -124,7 +125,7 @@ button > .hamburger-icon{
   padding-left: 24px;
   padding-top: 12px;
   padding-bottom: 12px;
-
+  font-family: 'Roboto Condensed', sans-serif;
   box-shadow: 0px 0px 5px rgba(65, 69, 73, 0.15);
   background-color: white;
 }
@@ -132,16 +133,18 @@ button > .hamburger-icon{
 .menu-element {
   margin: 8px 0px 8px 12px;
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 24px;
+  font-weight: 600;
+  font-size: 18px;
   letter-spacing: normal;
-  box-shadow: inset 0 -6px 0 #9bc1ff;
-  transition: background 0.5s;
+  box-shadow: inset 0 -6px 0 #cccccc;
+  transition: background 0.8s;
 }
 
 .menu-element:hover {
-  background: #104396;
+  background: #000000;
   box-shadow: none;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .home-tab {
@@ -166,6 +169,7 @@ button > .hamburger-icon{
   justify-content: center;
   height: 100%;
   margin-right: 4px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .nav-tab {
@@ -189,6 +193,7 @@ button > .hamburger-icon{
   margin-top: 30px;
   overflow-x: visible;
   justify-content: center;
+  min-height: 100vh;
 }
 
 .landing-text {
@@ -216,7 +221,6 @@ button > .hamburger-icon{
 .landing-page-subheader {
   display: inline-block;
   width: 100%;
-  margin-left: 2%;
   margin-top: 12px;
   float: center;
 }
@@ -248,7 +252,7 @@ button > .hamburger-icon{
   cursor: pointer;
 }
 
-/* ---------- ABOUT PAGE ---------- */
+/* ---------- ABSTRACT PAGE ---------- */
 #about-page {
   margin-top: 80px;
   display: flex;
@@ -260,207 +264,63 @@ button > .hamburger-icon{
   width: 100%;
 }
 
-#sponsors-section {
-  width: 100%;
-  margin-top: 40px;
-}
-
-#press-section {
-  width: 100%;
-  margin-top: 40px;
-}
-
-.img-strip {
-  max-width: 100%;
-  width: 100%;
-  margin: 0px auto;
-  align-items: left;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.img {
-  margin: 12px;
-}
-
-#thehouse-img {
-  margin-top: -5px;
-  margin-bottom: -5px;
-  height: 130px;
-}
-
-#bearfounders-img {
-  height: 50px;
-}
-
-#citrisfoundry-img {
-  height: 72px;
-}
-
-#freev-img {
-  height: 100px;
-}
-
-#berkeleyeng-img {
-  height: 56px;
-}
-
-#sfexaminer-img {
-  height: 42px;
-}
-
-#dailycal-img {
-  height: 32px;
-}
-
-/* ---------- SPEAKER PAGE ---------- */
+/* ---------- ANALYSIS PAGE ---------- */
 
 #speaker-page {
   margin-top: 80px;
 }
 
-.calendar {
-  padding-top: 40px;
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-}
+/* ---------- COMPUTATION PAGE ---------- */
 
-.card {
-  display: inline-block;
-  width: 260px;
-  border-radius: 8px;
-  margin-bottom: 12px;
-  margin-right: 1.5%;
-  background-color: white;
-  box-shadow: -1px 0px 10px -6px rgba(204,204,204,0.5);
-  cursor: pointer;
-}
-
-.card-img {
-  display: block;
-  width: 100%;
-  height: 220px;
-  border-radius: 8px 8px 0px 0px;
-}
-
-.card-text {
-  display: block;
-  width: 100%;
-  border-radius: 0px 0px 8px 8px;
-  margin-top: 10px;
-  margin-bottom: 12px;
-  margin-left: 12px;
-  margin-right: 8px;
-}
-
-.card-text.staff {
-  text-align: center;
-  margin-left: 0;
-}
-
-.card-date {
-  display: inline-block;
-  padding: 8px;
-  float: left;
-  width: 10%;
-}
-
-.card-info {
-  display: inline-block;
-  margin-left: 10px;
-  padding-bottom: 12px;
-  float: right;
-  width: 80%;
-}
-
-.card-month {
-  display: block;
-  text-transform: uppercase;
-  text-align: center;
-  line-height: normal;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  letter-spacing: -0.3px;
-
-}
-
-.card-day {
-  display: block;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 600;
-  font-size: 24px;
-  letter-spacing: -0.3px;
-  line-height: normal;
-  text-align: center;
-}
-
-.card-header {
-  display: block;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  letter-spacing: -0.3px;
-  margin: 0;
-  padding: 0;
-  line-height: 22px;
-}
-
-.card-subheader {
-  display: block;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  letter-spacing: -0.3px;
-  margin: 0;
-  padding: 0;
-  line-height: 18px;
-}
-
-#placeholder-img {
-  background-image: url("../assets/placeholder-profile.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  /* background-position: 0px -10px; */
-}
-
-/* ---------- ASSIGNMENTS PAGE ---------- */
-
-.assignments {
+.snip {
   margin-top: 40px;
+  padding: 20px;
   background-color: white;
   border-radius: 4px;
-  min-width: 835px;
-  overflow-x: scroll;
-  scroll-direction: horizontal;
+  max-width: 100%;
+  background: #eeeeee;
 }
 
-.assignments-header-bar {
-  display: block;
-  border-bottom: 1px solid #E8EAED;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+.snip tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
 }
 
-.assignments-header {
-  display: inline-block;
-  margin-left: 8px;
-  margin-right: 8px;
-  font-family: 'ApercuProRegular', sans-serif;
-  font-size: 15px;
-  letter-spacing: -0.4px;
-  color: #777777;
+.snip tooltip tooltiptext {
+    visibility: hidden;
+    width: 180px;
+    bottom: 100%;
+    left: 50%; 
+    margin-left: -90px;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 1s;
 }
 
-/* ---------- STAFF PAGE ---------- */
+.snip tooltip:hover tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.snip tooltip tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+/* ---------- CONCLUSION PAGE ---------- */
 
 #staff-page {
   margin-top: 40px;
